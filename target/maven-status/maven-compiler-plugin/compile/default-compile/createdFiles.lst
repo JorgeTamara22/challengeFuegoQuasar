@@ -1,0 +1,13 @@
+com\meli\lambda\LambdaChallengeMeli.class
+com\meli\objetos\Response.class
+com\meli\objetos\Satelite.class
+com\meli\lambda\LambdaChallengeMeliPost.class
+com\meli\lambda\LambdaChallengeMeliGet.class
+com\meli\exception\ChallengeMeliException.class
+com\meli\objetos\RequestPost.class
+com\meli\servicios\TopSecretService.class
+com\meli\objetos\Request.class
+com\meli\constantes\Constants.class
+com\meli\constantes\SatellitesPosition.class
+com\meli\objetos\Circle.class
+com\meli\objetos\Position.class

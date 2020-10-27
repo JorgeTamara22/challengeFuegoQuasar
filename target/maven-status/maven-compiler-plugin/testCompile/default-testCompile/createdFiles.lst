@@ -1,0 +1,14 @@
+com\meli\lambda\TestUtils$UpperCaseRecordsPropertyNamingStrategy.class
+com\meli\lambda\TestUtils$DynamodbEventMixin.class
+com\meli\lambda\TestContext$1.class
+com\meli\lambda\TestUtils$DynamodbEventMixin$AttributeValueMixIn.class
+com\meli\lambda\TestContext.class
+com\meli\lambda\TestUtils$DynamodbEventMixin$RecordMixin.class
+com\meli\lambda\LambdaChallengeMeliTest.class
+com\meli\lambda\TestUtils$DynamodbEventMixin$StreamRecordMixin.class
+com\meli\lambda\TestUtils$1.class
+com\meli\lambda\TestUtils$TestJacksonMapperModule.class
+com\meli\lambda\TestUtils$DateTimeSerializer.class
+com\meli\lambda\TestUtils.class
+com\meli\lambda\TestContext$TestLogger.class
+com\meli\lambda\TestUtils$DateTimeDeserializer.class
