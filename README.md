@@ -16,6 +16,7 @@ La aplicación es desarrollada para que funcione en la arquitectura Serverless  
 
 # Servicios REST
 
+
 Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los cuales se describen a continuación:
 
 
