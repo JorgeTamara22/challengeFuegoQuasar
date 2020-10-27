@@ -72,3 +72,7 @@ Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los c
    },
    "message": "este es un mensaje secreto"
 }
+
+# Test
+
+Para ejecutar los tests correr el programa con JUnit Test
