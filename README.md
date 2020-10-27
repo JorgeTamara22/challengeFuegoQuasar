@@ -25,6 +25,8 @@ Se crea un proyecto AWS lambda Java para implementar las fuciones GetLocation y 
 
 Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los cuales se describen a continuación:
 
+![Arquitectura Meli](https://github.com/JorgeTamara22/challengeFuegoQuasar/blob/master/api.png)
+
 ## topsecret (Nivel 2)
 [https://u5fhoiwlve.execute-api.us-east-2.amazonaws.com/prod/topsecret](https://u5fhoiwlve.execute-api.us-east-2.amazonaws.com/prod/topsecret)
 
