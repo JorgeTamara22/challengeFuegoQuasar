@@ -7,6 +7,7 @@ API para determinar la distancia, ubicación y contenido de un mensaje de auxili
 - JDK 1.8 o superior.
 - IDE Eclipse con plugin para AWS.
 - Una cuenta en la consola de AWS para desplegar y probar las Lambdas.
+- SoapUI para probar los servicios REST
 
 # Arquitectura de la Aplicación
 
@@ -22,7 +23,7 @@ Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los c
 [https://operacion-fuego-quasar.herokuapp.com/api/v1/fuegoQuasar/topsecret](https://operacion-fuego-quasar.herokuapp.com/api/v1/fuegoQuasar/topsecret)
 
 - Metodo: POST
-- Request: Este metodo tiene como entrada una lista de satelites con la siguiente estructura:
+- Request: Este metodo tiene como entrada una lista de satelites con la siguiente estructura en JSON:
 
 { "satellites": [ { "name": "kenobi", "distance": 485.7, "message": ["este", "", "", "mensaje", ""] }, { "name": "skywalker", "distance": 266.1, "message": ["", "es", "", "", "secreto"] }, { "name": "sato", "distance": 600.5, "message": ["este", "", "un", "", ""] } ] }
 
@@ -36,9 +37,9 @@ Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los c
 }
 
 ## topsecret (punto 3)
-[](https://u5fhoiwlve.execute-api.us-east-2.amazonaws.com/prod/topsecret-split?satellite_name)
+[https://u5fhoiwlve.execute-api.us-east-2.amazonaws.com/prod/topsecret-split?satellite_name=XXXX](https://u5fhoiwlve.execute-api.us-east-2.amazonaws.com/prod/topsecret-split?satellite_name=XXXX)
 - Metodo: POST
-- Request: Este metodo tiene como entrada un objeto satelites y recibe un parametro llamado satellite_name
+- Request: Este metodo tiene como entrada un objeto satelites y recibe un parametro llamado satellite_name con la siguiente estructura en JSON:
  
 { "distance": 600.5, "message": ["este", "", "un", "", ""] }
 
