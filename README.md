@@ -12,7 +12,7 @@ API para determinar la distancia, ubicación y contenido de un mensaje de auxili
 
 La aplicación es desarrollada para que funcione en la arquitectura Serverless  o  relacionada  formalmente con el término FaaS (Function as a Service), para esto me apoye en servicios propios de AWS Como lambdas, Api Gateway y S3, a continuación una imagen donde se describe mejor lo anteriormente expuesto: 
 
-![Arquitectura Meli](https://github.com/JorgeTamara22/challengeFuegoQuasar/blob/master/Arquitectura%20challenge%20MELI.png)
+![Arquitectura Meli](https://github.com/JorgeTamara22/challengeFuegoQuasar/blob/master/post2.png)
 
 # Servicios REST
 
