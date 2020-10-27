@@ -16,12 +16,37 @@ La aplicación es desarrollada para que funcione en la arquitectura Serverless  
 
 # Servicios REST
 
-
 Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los cuales se describen a continuación:
 
 ## topsecret (punto 2)
-https://operacion-fuego-quasar.herokuapp.com/api/v1/fuegoQuasar/topsecret 
+[](https://operacion-fuego-quasar.herokuapp.com/api/v1/fuegoQuasar/topsecret)
+
 - Metodo: POST
-- Request: Este metodo tiene como entrada una lista de satelites
-- JSON: 
+- Request: Este metodo tiene como entrada una lista de satelites con la siguiente estructura:
+
 { "satellites": [ { "name": "kenobi", "distance": 485.7, "message": ["este", "", "", "mensaje", ""] }, { "name": "skywalker", "distance": 266.1, "message": ["", "es", "", "", "secreto"] }, { "name": "sato", "distance": 600.5, "message": ["este", "", "un", "", ""] } ] }
+
+- Response: La respuesta del metodo tiene la siguiente estructura:
+{
+   "position":    {
+      "x": -100.00688339798238,
+      "y": 75.51770663789418
+   },
+   "message": "este es un mensaje secreto"
+}
+
+## topsecret (punto 3)
+[](https://u5fhoiwlve.execute-api.us-east-2.amazonaws.com/prod/topsecret-split?satellite_name)
+- Metodo: POST
+- Request: Este metodo tiene como entrada un objeto satelites y recibe un parametro llamado satellite_name
+ 
+{ "distance": 600.5, "message": ["este", "", "un", "", ""] }
+
+- Response: La respuesta del metodo tiene la siguiente estructura:
+{
+   "position":    {
+      "x": -100.00688339798238,
+      "y": 75.51770663789418
+   },
+   "message": "este es un mensaje secreto"
+}
