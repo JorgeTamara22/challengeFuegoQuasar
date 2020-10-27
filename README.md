@@ -19,4 +19,9 @@ La aplicación es desarrollada para que funcione en la arquitectura Serverless  
 
 Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los cuales se describen a continuación:
 
-
+## topsecret (punto 2)
+https://operacion-fuego-quasar.herokuapp.com/api/v1/fuegoQuasar/topsecret 
+- Metodo: POST
+- Request: Este metodo tiene como entrada una lista de satelites
+- JSON: 
+{ "satellites": [ { "name": "kenobi", "distance": 485.7, "message": ["este", "", "", "mensaje", ""] }, { "name": "skywalker", "distance": 266.1, "message": ["", "es", "", "", "secreto"] }, { "name": "sato", "distance": 600.5, "message": ["este", "", "un", "", ""] } ] }
