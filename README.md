@@ -17,7 +17,9 @@ La aplicación es desarrollada para que funcione en la arquitectura Serverless  
 
 # Nivel 1
 
-Se crea un proyecto AWS lambda Java para implementar las fuciones GetLocation y GetMessage  
+Se crea un proyecto AWS lambda Java para implementar las fuciones GetLocation y GetMessage
+
+![Arquitectura Meli](https://github.com/JorgeTamara22/challengeFuegoQuasar/blob/master/lambdas.png)
 
 # Servicios REST
 
