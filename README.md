@@ -33,7 +33,7 @@ Para exponer los servicios REST al cliente se utilizó Api Gateway de AWS, los c
 - Metodo: POST
 - Request: Este metodo tiene como entrada una lista de satelites con la siguiente estructura en JSON:
 
-{ "satellites": [ { "name": "kenobi", "distance": 485.7, "message": ["este", "", "", "mensaje", ""] }, { "name": "skywalker", "distance": 266.1, "message": ["", "es", "", "", "secreto"] }, { "name": "sato", "distance": 600.5, "message": ["este", "", "un", "", ""] } ] }
+{ "satelites": [ { "name": "kenobi", "distance": 485.7, "message": ["este", "", "", "mensaje", ""] }, { "name": "skywalker", "distance": 266.1, "message": ["", "es", "", "", "secreto"] }, { "name": "sato", "distance": 600.5, "message": ["este", "", "un", "", ""] } ] }
 
 - Response: La respuesta del metodo tiene la siguiente estructura:
 {
